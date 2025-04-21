@@ -1,0 +1,24 @@
+# Traning configuration
+model: 
+  name: "yolov8s.pt"
+  image_size: 640
+
+training:
+  epochs: 100
+  batch_size: 32
+  learning_rate: 0.1
+  device: "cpu"
+
+# Callbacks configuration
+callbacks:
+  save_period: 2 # Lưu model sau mỗi 2 epochs
+  early_stopping:
+    patience: 10 # Dừng nếu không cải thiện sau 10 epochs
+    min_delta: 0.01 # Ngưỡng cải thiện tối thiểu
+
+
+# Dataset paths
+data:
+  yaml_path: "dataset/data.yaml"
+  train: "dataset/train"
+  val: "dataset/val"
