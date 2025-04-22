@@ -3,3 +3,5 @@ Yolo_Model/dataset/
 Face_Recognition_Model/dataset/
 Face_Recognition_Model/data/
 Yolo_Model/utils/output/
+Face_Recognition_Model/training_checkpoints/
+Face_Recognition_Model/application_data/
