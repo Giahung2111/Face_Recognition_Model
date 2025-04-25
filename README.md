@@ -53,10 +53,10 @@ Hệ thống này bao gồm hai phần chính:
    - Mở Jupyter Notebook `main.ipynb` và chạy các ô để chụp khuôn mặt của bạn vào cơ sở dữ liệu.
 
 3. **Chạy inference**:
-   - Tải mô hình đã huấn luyện từ [link đến model .pt] và chạy mã để thực hiện nhận diện khuôn mặt.
+   - Tải mô hình đã huấn luyện từ https://drive.google.com/file/d/1TL1wryed38ZZUeFu2PiuoE7PzZeg0fH8/view?usp=sharing và chạy mã để thực hiện nhận diện khuôn mặt.
 
 4. **Dataset**:
-   - Tập dữ liệu CelebA có thể được tải từ [link đến dataset].
+   - Tập dữ liệu CelebA có thể được tải từ https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html.
 
 #### 2. Phát hiện đối tượng (Yolo Model)
 
@@ -70,7 +70,7 @@ Hệ thống này bao gồm hai phần chính:
    - Sử dụng file `webcam_test.py` để kiểm tra phát hiện khuôn mặt và trạng thái “mask”/“no mask”.
 
 4. **Kết quả huấn luyện**:
-   - Kết quả huấn luyện có thể được xem tại [link đến kết quả huấn luyện].
+   - Kết quả huấn luyện có thể được xem bên dưới.
 
 ---
 
@@ -98,7 +98,3 @@ Hệ thống này bao gồm hai phần chính:
 
 - [YOLO: You Only Look Once](https://pjreddie.com/darknet/yolo/)
 - [Siamese Networks for One-shot Image Recognition](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
-
-## Liên hệ
-
-Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ với tôi qua email: [ghung21112004@gmail.com].
