@@ -98,3 +98,9 @@ Hệ thống này bao gồm hai phần chính:
 
 - [YOLO: You Only Look Once](https://pjreddie.com/darknet/yolo/)
 - [Siamese Networks for One-shot Image Recognition](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
+
+---
+
+## Tổng hợp Notebook chi tiết (Kaggle)
+
+- Link: https://www.kaggle.com/code/lnguyngiahng2111/face-recognition-siamese
